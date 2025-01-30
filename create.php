@@ -1,6 +1,6 @@
 <?php
 
-$con=mysqli_connect('localhost','root','');
+$con=mysqli_connect('uems.cohqeqscenv8.us-east-1.rds.amazonaws.com','root','');
 
    if(!$con)
    {

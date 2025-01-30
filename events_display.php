@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost', 'root', '');
+$con = mysqli_connect('uems.cohqeqscenv8.us-east-1.rds.amazonaws.com', 'admin', '12345678');
 
 if (!$con) {
     die('Not connected to server');

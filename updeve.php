@@ -48,7 +48,7 @@ class EventManager
 }
  
 // Instantiate the Database class
-$db = new Database('localhost', 'root', '', 'uems');
+$db = new Database('uems.cohqeqscenv8.us-east-1.rds.amazonaws.com', 'admin', '12345678', 'uems');
  
 // Instantiate the EventManager class
 $eventManager = new EventManager($db);

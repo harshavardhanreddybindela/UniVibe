@@ -3,9 +3,9 @@ class SampleTest extends \PHPUnit\Framework\TestCase{
     //Function to test admin credentials validation feature
     public function testcase1() {
         $cal=new App\Test_php;
-        $host = "localhost";
-        $usern = "root";
-        $pass = "";
+        $host = "uems.cohqeqscenv8.us-east-1.rds.amazonaws.com";
+        $usern = "admin";
+        $pass = "12345678";
         $dbname = "uems";
         $con = mysqli_connect($host, $usern, $pass, $dbname);
         $user="SELECT * from admin where emailid='saigoutham.chedhella@slu.edu' and pass1='Sai@12345'";
@@ -16,9 +16,9 @@ class SampleTest extends \PHPUnit\Framework\TestCase{
     //Function to test add new admin features
     public function testcase2(){
         $cal=new App\Test_php;
-        $host = "localhost";
-        $usern = "root";
-        $pass = "";
+        $host = "uems.cohqeqscenv8.us-east-1.rds.amazonaws.com";
+        $usern = "admin";
+        $pass = "12345678";
         $dbname = "uems";
         $con = mysqli_connect($host, $usern, $pass, $dbname);
         $result=$cal->addadmin($con);
@@ -28,9 +28,9 @@ class SampleTest extends \PHPUnit\Framework\TestCase{
     //Function to test to update password
     public function testcase3(){
         $cal=new App\Test_php;
-        $host = "localhost";
-        $usern = "root";
-        $pass = "";
+        $host = "uems.cohqeqscenv8.us-east-1.rds.amazonaws.com";
+        $usern = "admin";
+        $pass = "12345678";
         $dbname = "uems";
         $con = mysqli_connect($host, $usern, $pass, $dbname);
         $result=$cal->update($con);
@@ -40,9 +40,9 @@ class SampleTest extends \PHPUnit\Framework\TestCase{
     //Function to test delete event details
     public function testcase4(){
         $cal=new App\Test_php;
-        $host = "localhost";
-        $usern = "root";
-        $pass = "";
+        $host = "uems.cohqeqscenv8.us-east-1.rds.amazonaws.com";
+        $usern = "admin";
+        $pass = "12345678";
         $dbname = "uems";
         $con = mysqli_connect($host, $usern, $pass, $dbname);
         $result=$cal->emptycart($con);
@@ -52,9 +52,9 @@ class SampleTest extends \PHPUnit\Framework\TestCase{
     public function testTableExists()
     {
         $cal = new App\Test_php;
-        $host = "localhost";
-        $usern = "root";
-        $pass = "";
+        $host = "uems.cohqeqscenv8.us-east-1.rds.amazonaws.com";
+        $usern = "admin";
+        $pass = "12345678";
         $dbname = "uems";
         $con = mysqli_connect($host, $usern, $pass, $dbname);
         $tableName = 'event';
@@ -67,9 +67,9 @@ class SampleTest extends \PHPUnit\Framework\TestCase{
     public function testDatabaseExists()
     {
         $cal = new App\Test_php;
-        $host = "localhost";
-        $usern = "root";
-        $pass = "";
+        $host = "uems.cohqeqscenv8.us-east-1.rds.amazonaws.com";
+        $usern = "admin";
+        $pass = "12345678";
         $dbname = "uems"; // Replace with the name of the database you want to check
     
         $con = mysqli_connect($host, $usern, $pass);

@@ -97,7 +97,7 @@
 
         <?php
         // Connect to MySQL
-        $con = mysqli_connect('localhost', 'root', '', 'uems');
+        $con = mysqli_connect('uems.cohqeqscenv8.us-east-1.rds.amazonaws.com', 'admin', '12345678', 'uems');
         if (!$con) {
             die('Could not connect to MySQL: ' . mysqli_connect_error());
         }

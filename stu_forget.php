@@ -4,7 +4,7 @@ $securityquestion1=$_POST['securityquestion1'];
 $securityquestion2=$_POST['securityquestion2'];
 $securityquestion3=$_POST['securityquestion3'];
 
-$connection = mysqli_connect('localhost','root','','uems');
+$connection = mysqli_connect('uems.cohqeqscenv8.us-east-1.rds.amazonaws.com','admin','12345678','uems');
 if($connection->connect_error)
 {
 	die("database connection failed: " . $connection->connect_error);
