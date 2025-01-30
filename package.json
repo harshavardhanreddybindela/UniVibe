@@ -1,0 +1,18 @@
+{
+  "name": "uems",
+  "version": "1.0.0",
+  "description": "The university event management system is a versatile and user-friendly software solution designed to streamline the planning, organization, and execution of a wide range of events. Its primary goal is to empower institutions to orchestrate diverse events, including cultural festivals, academic conferences, sports competitions, social gatherings, seminars, and more. This system not only automates event logistics but also ensures seamless participant engagement. What sets it apart from traditional software is its userfriendly interface, robust automation capabilities, and its ability to simplify event planning and coordination for both students and faculty members.",
+  "main": "test.js",
+  
+  "scripts": {
+    
+    "test": "jasmine spec/mymodule.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.3",
+    "jasmine": "^5.1.0",
+    "jsdom": "^22.1.0"
+  }
+}
